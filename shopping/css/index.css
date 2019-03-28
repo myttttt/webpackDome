@@ -1,0 +1,116 @@
+.b {
+  float: left;
+}
+.left {
+  margin-left: 80px ;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#box {
+  width: 800px;
+  margin: 100px auto;
+}
+#box li {
+  list-style: none;
+  width: 100%;
+  height: 50px;
+  background-color: aqua;
+  padding: 10px;
+  border-bottom: 2px dashed #ccc;
+}
+#box li .case {
+  float: left;
+  margin-top: 20px ;
+}
+#box li .img {
+  width: 80px;
+  height: 50px;
+  float: left;
+  margin-left: 80px ;
+}
+#box li .img img {
+  width: 100%;
+  height: 100%;
+}
+#box li .commodity {
+  width: 80px;
+  height: 100%;
+  background-color: palevioletred;
+  float: left;
+  margin-left: 80px ;
+}
+#box li .commodity span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+#box li .quantity {
+  width: 120px;
+  height: 100%;
+  background-color: aquamarine;
+  float: left;
+  margin-left: 80px ;
+}
+#box li .quantity button {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin-left: 6px;
+}
+#box li .quantity p {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 13px;
+}
+#box li .quantity input {
+  width: 16px;
+  height: 12px;
+  padding: 2px;
+  text-align: center;
+}
+#box li .total {
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+  background-color: cornflowerblue;
+  float: left;
+  margin-left: 80px ;
+}
+#box li .total span {
+  display: inline-block;
+  height: 50px;
+  width: 70px;
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+  color: red;
+}
+.totalPrices .lefts {
+  width: 100px;
+  height: 50px;
+  float: left;
+}
+.totalPrices .lefts span {
+  display: inline-block;
+  line-height: 50px;
+}
+.totalPrices .right {
+  float: right;
+  line-height: 50px;
+}
+.totalPrices .right span {
+  display: inline-block;
+  width: 100px;
+  color: crimson;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+}
+body {
+  background-color: #000;
+}
+
